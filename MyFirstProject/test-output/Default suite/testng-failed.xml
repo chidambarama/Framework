@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.automation.testcase.LoginTestCRM">
+        <methods>
+          <include name="teardown"/>
+          <include name="ExcelDataProvider"/>
+          <include name="teardownmethod"/>
+          <include name="setup"/>
+          <include name="loginApp"/>
+        </methods>
+      </class> <!-- com.automation.testcase.LoginTestCRM -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
