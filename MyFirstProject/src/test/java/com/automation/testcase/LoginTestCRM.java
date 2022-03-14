@@ -18,6 +18,7 @@ public class LoginTestCRM extends BaseClass
 	@Test(priority = 1)
 	public void loginApp() throws InterruptedException 
 	{
+		Reporter.log("ready to create the report");
 		logger=	report.createTest("Welcome to the login page to crm");
 		LoginPage	loginpage= PageFactory.initElements(driver, LoginPage.class);
 		//loginpage.loginCRM("123", "344");
