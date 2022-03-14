@@ -25,7 +25,6 @@ public class LoginTestCRM extends BaseClass
 		logger.info("Starting application");
 		loginpage.loginCRM(excel.getStringData("Sheet1", 0, 0), excel.getStringData("Sheet1", 0, 1));
 		logger.pass("Login success");
-
 	}
 
 //	@Test(priority = 2)
