@@ -15,6 +15,7 @@ import com.automation.utilities.Helper;
 
 public class LoginTestCRM extends BaseClass
 {
+	//TEST//
 	@Test(priority = 1)
 	public void loginApp() throws InterruptedException 
 	{
