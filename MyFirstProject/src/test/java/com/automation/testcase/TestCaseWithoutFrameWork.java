@@ -21,6 +21,7 @@ public class TestCaseWithoutFrameWork
 		driver.findElement(By.xpath("//div[text()='Login']")).click();
 		Thread.sleep(3000);
 		driver.quit();
+		
 	}
 
 
