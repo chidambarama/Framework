@@ -24,6 +24,7 @@ public class cc {
 	///	ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
 		///driver.switchTo().window(newTb.get(1));
 	///	System.out.println("Page title of new tab: " + driver.getTitle());
+		
 		//	driver.switchTo().window(newTb.get(0));
 		//	System.out.println("Page title of parent window: " + driver.getTitle());
 	///	driver.findElement(By.name("field_mock_rating_add_more")).click();
