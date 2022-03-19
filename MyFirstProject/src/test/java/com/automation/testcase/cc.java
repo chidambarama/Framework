@@ -20,6 +20,7 @@ public class cc {
 		driver.findElement(By.name("name")).sendKeys("Umamaheshwari");
 		driver.findElement(By.name("pass")).sendKeys("umamaheshwari@123");
 		driver.findElement(By.id("edit-submit--2")).click();
+		
 	///	driver.findElement(By.xpath("//a[text()='Edit']")).click();
 	///	ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
 		///driver.switchTo().window(newTb.get(1));
